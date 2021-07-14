@@ -142,6 +142,10 @@ header{
     color: #6C6C6C;
     text-align: justify;
 }
+.player-image:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease 1s;
+}
 /*-----------------------
 -----PLAYER GALARY END----
 -------------------------*/
@@ -150,3 +154,62 @@ header{
 /*-----------------------
 ----HILIGHLIGHTS START---
 -------------------------*/
+.common{
+   margin: 10.5%;
+   margin-top: 100px;
+}
+.highlights{
+    margin-top: -40px;
+}
+.highlight-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 66px;
+}
+.highlights-tittle h2{
+    font-size: 48px;
+    line-height: 60px;
+}
+.highlights-tittle p{
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+
+.high-btn{
+    margin-top: 30px;
+}
+/*----champion section--------*/
+.champ-img{
+    width: 450px;
+    height: auto;
+    opacity: 0.5;
+}
+.champ-img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: all 1s ease 1s;
+}
+
+/*----champion section END-----*/
+
+
+
+/*------FOOTER START-----------*/
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-img img{
+    width: 483px;
+    height: auto;
+}
+.footer-icon i{
+    color: #969BAB;
+    margin-right: 14px;
+}
+.footer-paragraph i{
+    color: black;
+}
+/*------FOOTER END-----------*/
